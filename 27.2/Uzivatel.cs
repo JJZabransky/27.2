@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _27._2
 {
-    internal class Uzivatel
+    public class Uzivatel
     {
         private int id;
         private string username;

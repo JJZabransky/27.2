@@ -11,5 +11,13 @@ namespace _27._2
         {
 
         }
+
+        public void SignUp()
+        {
+            string name = textBox1.Text;
+            string password = textBox2.Text;
+
+            UzivatelDAO.Save();
+        }
     }
 }
